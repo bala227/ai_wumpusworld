@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .App {
   text-align: center;
-  background-color: #f0f0f0;
+  background-image: url("../src/assets/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   font-family: "Poppins", system-ui;
   font-weight: 400;
@@ -13,7 +15,7 @@
 .heading {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
 }
 
 .grid {
@@ -35,18 +37,19 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.4) 0px 2px 4px 0px, rgba(14, 30, 37, 0.6) 0px 2px 16px 0px;
 }
 
 .icon {
   width: 100px;
   height: 100px;
+  margin: -15px;
 }
 
 .message {
   font-size: 25px;
   margin-top: 50px;
-  color: #333;
+  color: white;
   font-weight: bold;
 }
 
@@ -62,5 +65,6 @@
 }
 
 .reset-button:hover {
-  background-color: #0056b3;
+  background-color: green;
+  color: #fff;
 }
