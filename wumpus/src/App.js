@@ -9,10 +9,10 @@ import stenchImg from "./assets/stench.png";
 
 // Game grid layout
 const grid = [
-  [{ breeze: true }, { breeze: true }, {}, {}],
-  [{ stench: true }, {}, { pit: true }, {}],
-  [{ stench: true }, { wumpus: true }, { treasure: true }, {}],
-  [{ breeze: true }, {}, {}, {}],
+  [{ stench: true },{}, { breeze: true },  { pit: true }],
+  [{ wumpus: true }, { treasure: true }, { pit: true }, { breeze: true }],
+  [{ stench: true }, {}, { breeze: true }, {}],
+  [{}, { breeze: true }, { pit: true }, { breeze: true }],
 ];
 
 // Initial agent position
